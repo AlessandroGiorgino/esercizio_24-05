@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500&display=swap");
+
+body {
+  height: 100vh;
+  font-family: "Frank Ruhl Libre", serif;
+}
+
+/* QUI HEADER */
+
+.immagineHeader {
+  height: 8vh;
+  display: block;
+  margin: auto;
+}
+
+.titoloHeader {
+  border-top: groove #fdd5b1 0.3px;
+  background-color: rgba(255, 239, 213, 0.3);
+  padding: 1.5em;
+  text-align: center;
+  font-size: small;
+  margin-bottom: 2.5em;
+  color: #004d4d;
+  font-weight: 1000;
+}
+.part {
+  font-weight: lighter;
+  color: #004d4d;
+}
+
+/* QUI MAIN */
+
+/* Qui section ricetta video */
+#centrale {
+  width: 70vh;
+  margin: auto;
+}
+h1 {
+  text-align: center;
+  font-size: xx-large;
+}
+.wow {
+  font-weight: 200;
+  text-align: initial;
+}
+.ricettaYoutube {
+  width: 100%;
+  height: 50vh;
+  border-radius: 0.8rem;
+  box-shadow: 3px 5px 10px #888888;
+}
+.creditImage {
+  text-align: center;
+  font-weight: 100;
+  color: grey;
+  margin-bottom: 3vh;
+}
+.featured {
+  border-left: groove #fdd5b1 1px;
+  height: 3vh;
+}
+* > .featured {
+  padding-left: 1em;
+  line-height: 1px;
+}
+.featured p {
+  color: darkred;
+}
+.featured a {
+  color: #004d4d;
+}
+
+/* QUI SEZIONE RICETTA SCRITTA */
+
+.titoliRicettescritte {
+  margin-top: 5vh;
+  font-weight: 400;
+}
+
+hr {
+  border-color: #afeeee;
+  opacity: 0.4;
+}
+
+.ingredients li {
+  line-height: 3vh;
+}
+.method .firstBold {
+  font-weight: bold;
+  margin-bottom: 3vh;
+}
+.method .senzaNumero {
+  list-style-type: none;
+  margin-bottom: 3vh;
+}
+
+/* QUI FOOTER */
+
+footer {
+  width: 70vh;
+  margin: auto;
+}
